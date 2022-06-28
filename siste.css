@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+header{
+    background-color: rgb(26, 26, 97);
+    color: white;
+    height: 100px;
+    width: auto;
+    
+}
+.cabecera h1{
+line-height: 100px;
+text-align: center;
+font-size: 35px;
+}
+.sistecredito{
+    width: 70%;
+    float: left;margin-top: 10px;
+}
+.formulario{
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+}
+
+#img-siste{
+    width: 750px;
+    height: 350px;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.form{
+    background-color: rgb(13, 13, 110);
+    width: 180px;
+    height: auto;
+    color: white;
+    padding: 10px;
+    border-radius: 15px  ;
+}
+
+.img-form{
+    background-color: aqua;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <title>Prueba Sistecredito</title>
+    <link rel="stylesheet" href="siste.css">
+</head>
+<body>
+    <header class="cabecera">
+        <h1>Prueba de ingreso Sistecredito</h1>
+    </header>
+    <div class="img-form">
+        <section class="sistecredito">
+            <img id="img-siste" src="sistecredito.png" alt="">
+        </section>
+        <section class="formulario">
+            <form  class="form" action="">
+                <h2>Ingresar los datos</h2>
+
+                <!-- <label for="">Monto</label> -->
+                <!-- <br> -->
+                <input type="number" id="input_monto" placeholder="Valor del Prestamo">
+                <!-- <br> -->
+                <!-- <label for="">Nro de Cuotas</label> -->
+                <!-- <br> -->
+                <input type="number" id="input_nro_cuotas" placeholder="Numero de cuotas">
+                <!-- <br> -->
+                <!-- <label for="">Tasa de interes</label> -->
+                <!-- <br> -->
+                <input type="number" id="input_tasa" placeholder="Tasa de interes">
+                <!-- <br> -->
+                <input type="number" id="input_x_cuota" placeholder="N° Cuota a consultar">
+                <!-- <label for="">Para la cuota N°: </label> -->
+
+                <!-- <br>
+                <br> -->
+
+                <input class="btn btn-primary" type="button" value="Calcular" onclick="calcular()"> <br><br><br>
+                <!-- CUOTA X A CANCELAR -->
+                <label for="">Couta a cancelar:</label>
+                <input type="number" name="" id="x_cuota" disabled >
+                <label for="">El valor de la cuota es: </label>
+                <input type="number" name="" id="vr_cuota" disabled >
+                <label for="">El capital adeudado es: </label>
+                <input type="number" name="" id="Resultado" disabled >
+
+                <script src="siste.js"></script>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
